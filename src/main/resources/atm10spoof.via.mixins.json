@@ -1,0 +1,12 @@
+{
+	"required": false,
+	"minVersion": "0.8",
+	"package": "dev.atm10spoof.mixin.via",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"MappingDataBaseMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}

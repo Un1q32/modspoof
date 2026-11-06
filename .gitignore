@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Minecraft development run
+run/
+logs/
+crash-reports/
+
+# Local test servers and their output (server packs are several GB)
+test/atm10/
+test/atm10sky/
+test/atm11/
+test/gtnh/
+test/client.log
+test/xvfb.log
+test/*.log
+test/*.zip
+
+# Build artifacts and backups
+*.jar
+*.bak
+*.bak-*
+!gradle/wrapper/gradle-wrapper.jar
+
+# Editors / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store

@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.atm10spoof.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ConnectionMixin",
+		"CommonRegisterMixin",
+		"ConnectScreenMixin",
+		"PacketDecoderMixin",
+		"PacketEncoderMixin",
+		"PacketErrorMixin",
+		"DisconnectTraceMixin",
+		"ListenerAccessor",
+		"PendingRegistrationMixin",
+		"RegistryDataCollectorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
